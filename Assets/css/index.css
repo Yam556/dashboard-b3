@@ -19,6 +19,18 @@ body{
 ::placeholder {
     color: var(--gray-text);
 }
+
+.avatar-xl{ 
+    width: 7.5rem;
+    height: 7.5rem;
+}
+.info{
+    background-color: rgb(254, 244, 228);
+    color: rgb(210, 156, 64);
+    padding: 12px 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+}
 /* start auth common */
 .auth-bg{
     background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fthemesbrand.com%2Fvelzon%2Fhtml%2Fmaster%2Fassets%2Fimages%2Fauth-one-bg.jpg);
@@ -103,6 +115,7 @@ body{
 .auth-box .intro{
     color: rgb(135, 138, 153);
     margin-bottom: 16px;
+    line-height: 1.6;
 
 }
 .auth-box form{
@@ -113,6 +126,9 @@ body{
     color: var(--gray-text);
     margin: 10px 0;
 
+}
+.auth-box form .form-item p{
+    margin: 0;
 }
 .auth-box form em{
     font-style: italic;
@@ -126,6 +142,8 @@ body{
 
 
 /* end Auth common */
+
+
 /* Start Form */
 
 .form-item{
@@ -137,10 +155,28 @@ body{
 .form-item label{
     font-weight: 500;
     line-height: 19px;
+    display: flex;
+    align-items: center;
 }
 .form-item label span{
     color: red;
 }
+
+.form-item div{
+    display: flex;
+    justify-content: space-between;
+}
+.form-item a{
+    color: var(--gray-text);
+    text-decoration: none;
+}
+.form-item label input[type="checkbox"]{
+    margin-right: 5px;
+}
+.form-item label input[type="checkbox"]{
+
+}
+
 .form-item input[type="Email"],
 .form-item input[type="Password"],
 .form-item input[type="text"]
