@@ -225,6 +225,7 @@ aside{
     bottom: 0;
     padding: 0px 20px;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 aside h1{
     text-align: center;
