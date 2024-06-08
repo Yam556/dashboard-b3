@@ -232,10 +232,13 @@ aside h1{
     line-height: 70px;
     position: sticky;
     top: 0;
+    display: block;
+    background-color: var(--primary-color);
 }
 aside h1 img{
     height: 17px;
     width: auto;
+
 }
 aside nav .nav-title{
     text-transform: uppercase;
